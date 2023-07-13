@@ -1,0 +1,263 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background: #0c111b;
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+  width: 100%;
+  height: 100px;
+  padding-left: 4%;
+  padding-right: 4%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #0c111b;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+}
+.brand-logo {
+  width: 115px;
+  height: 65px;
+}
+.nav-links {
+  margin-top: 10px;
+  display: flex;
+  list-style: none;
+}
+.nav-items a {
+  text-decoration: none;
+  margin-left: 20px;
+  text-transform: capitalize;
+  color: #fff;
+  opacity: 9;
+}
+.right-container {
+  display: block;
+  margin-left: auto;
+}
+.search-box {
+  border: none;
+  border-bottom: 1px solid #aaa;
+  background: transparent;
+  outline: none;
+  height: 30px;
+  color: #fff;
+  width: 250px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.search-box:focus {
+  width: 400px;
+  border-color: #1f80ce;
+}
+.search-button {
+  border: none;
+  background: transparent;
+  height: 30px;
+  width: 40px;
+}
+.sub-btn {
+  background: transparent;
+  height: 30px;
+  padding: 0 20px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  margin: 0 10px;
+}
+i {
+  background: transparent;
+  height: 30px;
+  width: 50px;
+}
+
+#grandparent_div {
+  display: grid;
+  gap: 12px;
+}
+#carouselExampleIndicators {
+  box-shadow: inset;
+  height: 500px;
+  overflow: hidden;
+}
+.carousel-inner img {
+  padding-left: 4%;
+  padding-right: 4%;
+  object-fit: cover;
+  height: 500px;
+}
+.title {
+  margin-top: 2%;
+  color: #fff;
+  opacity: 0.9;
+  padding-left: 4%;
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 500;
+}
+.book-list {
+  width: 100%;
+  height: 220px;
+  position: relative;
+  margin: 10px 0 20px;
+}
+.card-container {
+  position: absolute;
+  width: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}
+.card-container::-webkit-scrollbar {
+  background-color: #0c111b;
+  margin-top: 5px;
+}
+.card {
+  position: relative;
+  min-width: 150px;
+  width: 150px;
+  height: 200px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 10px;
+  transition: 0.5s;
+  background: #030b17;
+}
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card:hover .card-body:hover {
+  opacity: 1;
+}
+.card-body {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: linear-gradient(to bottom, rgba(4, 8, 15, 0), #192133 90%);
+  padding: 10px;
+  transition: 0.5s;
+}
+.name {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-top: 60%;
+}
+.wishlist-btn {
+  position: absolute;
+  width: 100%;
+  text-transform: capitalize;
+  background: none;
+  border: none;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 10px -10px;
+  cursor: pointer;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+
+.wishlist-btn:hover {
+  color: #fff;
+}
+
+footer {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  color: #aaa;
+  border-top: 1px solid #aaa;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+#burger {
+  cursor: pointer;
+  display: none;
+}
+.dropdown_menu{
+    display: none;
+    position: absolute;
+
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.dropdown_menu.open{
+    height: 200px;
+}
+.dropdown_menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown_menu .sub-btn{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+    color: #0c111b;
+    font-size: 15px;
+}
+@media screen and (max-width: 992px) {
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+    .nav-links,.right-container {
+    display: none;
+  }
+  #burger{
+    display: block;
+
+  }
+  .dropdown_menu{
+    display: block;
+  }
+  .carousel-item {
+    height: 500px;
+  }
+  footer{
+    display: none;
+  }
+}
+/* @media (max-width: 992px) {
+} */
