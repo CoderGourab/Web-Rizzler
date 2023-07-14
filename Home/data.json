@@ -1,0 +1,263 @@
+{
+    "arr1" : [
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/769/9781509816415.jpg",
+            "name":"Dead at the first sight",
+            "id" : "1",
+            "genre":"fiction",
+            "author":"Peter James"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/573/9781408809365.jpg",
+            "name":"Eat Pray Love",
+            "id" : "2",
+            "genre":"romance",
+            "author":"Elizabeth Gilbert"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/bc/9780143426585.jfif",
+            "name":"The Boy With a Broken Heart",
+            "id" : "3",
+            "genre":"romance",
+            "author":"Durjoy Datta"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/586/9781447252214.jpg",
+            "name":"Cometh the Hour",
+            "id" : "4",
+            "genre":"Saga",
+            "author":"Jeffrey Archer"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/585/9788184770728.jpg",
+            "name":"Wanted-The Haunted Mask",
+            "id" : "5",
+            "genre":"Horror",
+            "author":"R.L Stine"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/bc/9780143451846.jpg",
+            "name":"Grandparents Bag Of Stories",
+            "id" : "6",
+            "genre":"Family-Drama",
+            "author":"Sudha Murty"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/644/9781406364927.jpg",
+            "name":"Alex Rider Mission : Crocodile Tears",
+            "id" : "7",
+            "genre":"Adventure",
+            "author":"Anthony Horowitz"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/bc/9789351283980.jpg",
+            "name":"At the feel of the master",
+            "id" : "8",
+            "genre":"philosophy",
+            "author":"J. Krishnamurti"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/bc/9780063309661.jpg",
+            "name":"Saved : A War Reporter's Mission To Make It Home",
+            "id" : "9",
+            "genre":"Adventure",
+            "author":"Benjamin Hall"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/bc/9789354716164.jpg",
+            "name":"Dog Man",
+            "id" : "10",
+            "genre":"Kids Adventure",
+            "author":"Dav Pilkey"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/bc/9789357022002_16832842970.jpg",
+            "name":"Droupadi Murmu",
+            "id" : "11",
+            "genre":"Biography",
+            "author":"Kasturi Ray"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/bc/9781444972443_16862902130.jpg",
+            "name":"Heartstopper",
+            "id" : "12",
+            "genre":"romance",
+            "author":"Oseman"
+        }
+        
+    ],
+    "arr2" : [
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/574/9781847562104.jpg",
+            "name":"Will You Still Love Me Tomorrow?",
+            "id" : "13",
+            "genre":"romance",
+            "author":"Claudia Carroll"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/574/9780007428540.jpg",
+            "name":"Game of Thrones",
+            "id" : "14",
+            "genre":"Thriller",
+            "author":"George R R Martin"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/568/9780747566533.jpg",
+            "name":"The Kite Runner",
+            "id" : "15",
+            "genre":"fiction",
+            "author":"Khaled Hosseini"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/304/9780752882635.jpg",
+            "name":"Quiet Belief in Angels",
+            "id" : "16",
+            "genre":"fiction",
+            "author":"R.J. Ellory"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/570/9780747550990.jpg",
+            "name":"Harry Potter And The Goblet Of Fire",
+            "id" : "17",
+            "genre":"Adventure",
+            "author":"J.K. Rowling"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/669/9780007501892.jpg",
+            "name":"Lyrebird",
+            "id" : "18",
+            "genre":"romance",
+            "author":"Cecelia Ahern"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/712/9781405924207.jpg",
+            "name":"Still Me",
+            "id" : "19",
+            "genre":"romance",
+            "author":"Jojo Moyes"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/668/9780857502704.jpg",
+            "name":"Night School",
+            "id" : "20",
+            "genre":"Comedy",
+            "author":"Lee Child"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/576/9781843547204.jpg",
+            "name":"The White Tiger",
+            "id" : "21",
+            "genre":"fiction",
+            "author":"Aravind Adiga"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/644/9781406364934.jpg",
+            "name":"Alex Rider : Russian Roulette",
+            "id" : "22",
+            "genre":"Adventure",
+            "author":"Anthony Horowitz"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/576/9780857502667.jpg",
+            "name":"Personal",
+            "id" : "23",
+            "genre":"Thriller",
+            "author":"Lee Child"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/568/9781849163422.jpg",
+            "name":"Girl Who Played With Fire",
+            "id" : "24",
+            "genre":"fiction",
+            "author":"Stieg Larsson"
+        }
+        
+    ],
+    "arr3" : [
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/389/9780140276336.jpg",
+            "name":"White Teeth",
+            "id" : "25",
+            "genre":"fiction",
+            "author":"Zadie Smith"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/695/9780349142920.jpg",
+            "name":"Little Fires Everywhere",
+            "id" : "26",
+            "genre":"fiction",
+            "author":"Celeste Ng"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/643/9781406364910.jpg",
+            "name":"Alex Rider Snakehead.",
+            "id" : "27",
+            "genre":"Adventure",
+            "author":"Anthony Horowitz"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/388/9780141030142.jpg",
+            "name":"Memory Keepers Daughter",
+            "id" : "28",
+            "genre":"Family-Drama",
+            "author":"Kim Edwards"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/bc/9781035031542_16885593600.jpg",
+            "name":"Beyond The Story: 10-Year Record Of BTS",
+            "id" : "29",
+            "genre":"Biography",
+            "author":"BTS And Myeongseok Kang"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/bc/9789392099434_16811917830.jpg",
+            "name":"Why Am I Like This",
+            "id" : "30",
+            "genre":"fiction",
+            "author":"Judy Balan"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/bc/9789395624701_16886331390.jpg",
+            "name":"Mandodari",
+            "id" : "31",
+            "genre":"Mythology",
+            "author":"Koral Dasgupta"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/bc/9781408725795_16886324180.jpg",
+            "name":"LOVE THEORETICALLY",
+            "id" : "32",
+            "genre":"romance",
+            "author":"HAZELWOOD"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/bc/9781529151817_16886324840.jpg",
+            "name":"The Making Of Another Major Motion Picture Masterpiece",
+            "id" : "33",
+            "genre":"Novel",
+            "author":"Hanks"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/bc/9780674294080_16886326220.jpg",
+            "name":"THE SEVENTY-FIVE FOLIOS AND OTHER UNPUBLISHED MANUSCRIPTS",
+            "id" : "34",
+            "genre":"Historical",
+            "author":"Proust"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/bc/9781406394955_16706655370.jpg",
+            "name":"Alex Rider Undercover: Four Secret Files",
+            "id" : "35",
+            "genre":"Adventure",
+            "author":"Anthony Horowitz"
+        },
+        {
+            "image":"https://bc-img.s3.ap-south-1.amazonaws.com/images/cover/391/9780143417309.jpg",
+            "name":"Target 3 Billion",
+            "id" : "36",
+            "genre":"philosophy",
+            "author":"A P J Abdul Kalam"
+        }
+        
+    ]
+}
