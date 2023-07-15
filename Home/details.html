@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookify</title>
+    <link rel="stylesheet" href="./details.css">
+</head>
+<body>
+    <nav>
+        <img src="./Image/logo.png" alt="" class="brand-logo rounded" />
+        <ul class="nav-links">
+          <li class="nav-items"><a href="./index.html">Home</a></li>
+          <li class="nav-items"><a href="#">About Us</a></li>
+          <li class="nav-items"><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="right-container">
+          <input type="text" placeholder="search" class="search-box" />
+          <button class="search-button">
+            <iconify-icon
+              icon="material-symbols:search"
+              style="color: #aaa"
+            ></iconify-icon>
+          </button>
+          <button class="sub-btn">Login</button>
+        </div>
+        <i class="fa-sharp fa-solid fa-bars " style="color: #aaa" id="burger"></i>
+        <div class="dropdown_menu">
+          <li class="nav-items"><a href="#">Home</a></li>
+          <li class="nav-items"><a href="#">About Us</a></li>
+          <li class="nav-items"><a href="#">Contact Us</a></li>
+          <button class="sub-btn">Login</button>
+        </div>
+      </nav>
+    <div id="card-container"></div>
+</body>
+<script src="./details.js"></script>
+</html>

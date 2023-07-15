@@ -7,6 +7,7 @@ fetch("http://localhost:8080/arr1", {
 })
   .then((res) => res.json())
   .then((data) => {
+    console.log(data);
     data.forEach((el) => {
       const div1 = document.createElement("div");
       div1.id = "card-body";
@@ -14,9 +15,13 @@ fetch("http://localhost:8080/arr1", {
       divi1.id = "card";
       const image1 = document.createElement("img");
       image1.src = el.image;
-      image1.alt - "error";
+      image1.alt = "error";
       const desc1 = document.createElement("h2");
       desc1.innerText = el.name;
+      desc1.addEventListener("click", () => {
+        localStorage.setItem("imageId", el.id);
+        window.location.href = "/details.html";
+      });
       div1.append(desc1);
       divi1.append(image1, div1);
       data_div1.append(divi1);
@@ -34,9 +39,13 @@ fetch("http://localhost:8080/arr2", {
       divi2.id = "card";
       const image2 = document.createElement("img");
       image2.src = el.image;
-      image2.alt - "error";
+      image2.alt = "error";
       const desc2 = document.createElement("h2");
       desc2.innerText = el.name;
+      desc2.addEventListener("click", () => {
+        localStorage.setItem("imageId", el.id);
+        window.location.href = "/details.html";
+      });
       div2.append(desc2);
       divi2.append(image2, div2);
       data_div2.append(divi2);
@@ -48,18 +57,22 @@ fetch("http://localhost:8080/arr3", {
   .then((res) => res.json())
   .then((data) => {
     data.forEach((el) => {
-      const div = document.createElement("div");
-      div.id = "card-body";
-      const divi = document.createElement("div");
-      divi.id = "card";
-      const image = document.createElement("img");
-      image.src = el.image;
-      image.alt - "error";
-      const desc = document.createElement("h2");
-      desc.innerText = el.name;
-      div.append(desc);
-      divi.append(image, div);
-      data_div3.append(divi);
+      const div3 = document.createElement("div");
+      div3.id = "card-body";
+      const divi3 = document.createElement("div");
+      divi3.id = "card";
+      const image3 = document.createElement("img");
+      image3.src = el.image;
+      image3.alt = "error";
+      const desc3 = document.createElement("h2");
+      desc3.innerText = el.name;
+      desc3.addEventListener("click", () => {
+        localStorage.setItem("imageId", el.id);
+        window.location.href = "/details.html";
+      });
+      div3.append(desc3);
+      divi3.append(image3, div3);
+      data_div3.append(divi3);
     });
   });
 
